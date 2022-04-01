@@ -1,0 +1,21 @@
+
+
+<table class="table w-75  bg-dark text-white text-center m-auto ">
+  <thead class="m-5">
+    <th>Index</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Salary</th>
+    <th>DateOfBirth</th>
+  </thead>
+  <tbody class="m-5">
+      <tr *ngFor="let user of webUser ; let i = index ; let isEven = even;"
+      [style.backgroundColor]="isEven  === true ? '#212' : '#09d' ">
+      <td>{{i}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.age}}</td>
+      <td>{{user.salary}}</td>
+      <td>{{user.dateOfBirth}}</td>
+    </tr>
+  </tbody>
+</table>

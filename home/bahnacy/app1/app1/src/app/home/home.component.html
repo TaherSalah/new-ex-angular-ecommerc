@@ -1,0 +1,32 @@
+<!-- <input [(ngModel)]="inputData" type="text" class="form-control">
+<h1 class="bg-info text-break text-center fw-light ">{{inputData}}</h1> -->
+
+<p>home works!</p>
+<span [ngSwitch]="programing">
+<p *ngSwitchCase="'taher'">
+  welcome Taher
+</p>
+<p *ngSwitchCase="'ahmed'">
+welcome ahmed
+</p>
+<p *ngSwitchDefault>
+welcome user
+</p>
+</span>
+<i class="fa fa-house-laptop text-danger">Home component</i>
+
+
+<div class="w-75 bg-gradient m-auto">
+  <h3 [ngClass]="{'text-end bg-dark': proNAme > 100 ,'text-center bg-danger' :proNAme >= 50}">
+    taher  matar
+  </h3>
+
+</div>
+
+<div class="w-50 bg-info m-auto">
+  <h1 [ngStyle]="{'margin.px':proNAme > 100 ? '20':'1000'}">
+    hello Taher
+  </h1>
+</div>
+
+<h1>fkkgkdgskfgfskgEne</h1>

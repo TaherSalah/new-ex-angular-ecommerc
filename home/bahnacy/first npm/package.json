@@ -1,0 +1,22 @@
+{
+  "name": "testangular",
+  "version": "1.0.0",
+  "description": "for learnimg angular",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "test"
+  ],
+  "author": "eng taher matar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

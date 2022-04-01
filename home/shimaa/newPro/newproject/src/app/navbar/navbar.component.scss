@@ -1,0 +1,34 @@
+h3 a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Montserrat' !important;
+
+}
+ul li a {
+  margin-left: 50px;
+  transition: all 0.5s linear;
+  color: rgb(245, 247, 240) !important;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600;
+
+
+}
+ul li a:hover{
+color: black;
+
+}
+.navActive
+{
+  background-color: beige;
+  border-radius: 20%;
+}
+.test
+{
+  font-weight: 900;
+}
+
+.fab{
+  cursor: pointer;
+}

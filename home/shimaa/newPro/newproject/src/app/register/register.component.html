@@ -1,0 +1,40 @@
+<div class="m-auto w-25">
+  <h1 class="h3 bg-success">REGISTER NOW</h1>
+</div>
+<form [formGroup]="regiserForm" class="w-50 m-auto" (ngSubmit)="regiserForm">
+  <label class="my-2" for="first_name">First Name</label>
+  <input formControlName="first_name" id="first_name" class="form-control text-center my-3"  type="text">
+  <label class="my-2" for="last-name">Last Name</label>
+  <input formControlName="last-name" id="last-name" class="form-control text-center my-3"  type="text">
+  <div *ngIf="regiserForm.get('last_name')?.errors && regiserForm.get('last_name')?.touched" class="alert alert-danger my-3">
+    <p *ngIf="regiserForm.get('last_name')?.errors?.['Required']">last-name is Required</p>
+    <p *ngIf="regiserForm.get('last_name')?.errors?.['minlenght']">last-name minlenght 3</p>
+    <p *ngIf="regiserForm.get('last_name')?.errors?.['maxlenght']">last-name maxlenght 6</p>
+  </div>
+  <label class="my-2" for="age">Age</label>
+  <input formControlName="age" id="age" class="form-control text-center my-3"  type="number">
+  <div class="alert alert-danger my-3">
+    <p>age is Required</p>
+    <p>age min 16</p>
+    <p>age max 80</p>
+  </div>
+  <label class="my-2" for="email">E-mail</label>
+  <input formControlName="email" id="email" class="form-control text-center my-3"  type="text">
+  <div class="alert alert-danger my-3">
+    <p>email is Required</p>
+    <p>email invaild</p>
+  </div>
+  <label class="my-2" for="password">Password</label>
+  <input formControlName="password" id="password" class="form-control text-center my-3"  type="text">
+  <div class="alert alert-danger my-3">
+    <p>password is Required</p>
+    <p>password con A-Z a-z 123 @</p>
+  </div>
+  <button type="submit" class="btn btn-outline-danger">Submit Registration</button>
+</form>
+
+<!-- <div class="alert alert-danger my-3">
+  <p>first_name is Required</p>
+  <p>first_name minlenght 3</p>
+  <p>first_name maxlenght 6</p>
+</div> -->

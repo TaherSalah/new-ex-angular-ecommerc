@@ -1,0 +1,71 @@
+                                        /* You can add global styles to this file, and also import other style files */
+
+                                        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+                                        html,
+                                        body {
+                                            height: 100%;
+                                        }
+
+                                        body {
+                                            font-family: 'Roboto', sans-serif;
+                                        }
+
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        /* start testmonials slider */
+
+                                        .testimonials .owl-prev,
+                                        .testimonials .owl-next {
+                                            position: absolute !important;
+                                            background-color: rgba(255, 0, 0, 0.133) !important;
+                                            width: 35px !important;
+                                            height: 35px !important;
+                                            border-radius: 50% !important;
+                                            top: 50% !important;
+                                            z-index: 22222222222 !important;
+                                            transform: translate(-50%, -50%) !important;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+
+                                        .testimonials .owl-next {
+                                            right: -7% !important;
+                                        }
+
+                                        .testimonials .owl-prev {
+                                            left: 1%!important;
+                                        }
+
+                                        .testimonials .owl-prev {
+                                            position: absolute !important;
+                                            top: 40% !important;
+                                            left: -1% !important;
+                                            transform: translate(-50%, -50%) !important;
+                                            color: black !important;
+                                            font-size: 25px !important;
+                                            transition: all .5s ease;
+                                        }
+
+                                        .testimonials .owl-next {
+                                            position: absolute !important;
+                                            top: 40% !important;
+                                            right: -5% !important;
+                                            transform: translate(-50%, -50%) !important;
+                                            color: black !important;
+                                            font-size: 25px !important;
+                                            transition: all .5s ease;
+                                        }
+
+                                        .testimonials .owl-prev:hover {
+                                            background-color: #ff4000 !important;
+                                            color: azure !important;
+                                        }
+
+                                        .testimonials .owl-next:hover {
+                                            background-color: #ff4000 !important;
+                                            color: azure !important;
+                                        }
+                                        /* End testmonials slider */

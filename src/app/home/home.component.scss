@@ -1,0 +1,408 @@
+                                                                                                                /*********************************************************End Header Style Sction****************************************************/
+
+                                                                                                                .row {
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: space-around;
+                                                                                                                    flex-wrap: wrap;
+                                                                                                                    align-items: center;
+                                                                                                                }
+
+                                                                                                                .colH1 {
+                                                                                                                    flex-basis: 50%;
+                                                                                                                    min-width: 18rem;
+                                                                                                                    margin-top: 120px;
+                                                                                                                }
+
+                                                                                                                .colH1 h1 {
+                                                                                                                    font-size: 3rem;
+                                                                                                                    line-height: 3.75rem;
+                                                                                                                    margin: 25px 0;
+                                                                                                                    font-weight: 600;
+                                                                                                                }
+
+                                                                                                                .col-2 .colImag {
+                                                                                                                    flex-basis: 50%;
+                                                                                                                }
+
+                                                                                                                .colImag img {
+                                                                                                                    max-width: 100%;
+                                                                                                                }
+
+                                                                                                                header {
+                                                                                                                    background: radial-gradient(#fff, #ffd6d6);
+                                                                                                                    height: 100vh;
+                                                                                                                }
+
+                                                                                                                .btn {
+                                                                                                                    margin: 30px 0;
+                                                                                                                    padding: 8px 30px;
+                                                                                                                    background-color: #ff523b;
+                                                                                                                    border-radius: 30px;
+                                                                                                                    color: #fff;
+                                                                                                                    transition: all linear 0.5s;
+                                                                                                                }
+
+                                                                                                                .btn:hover {
+                                                                                                                    background-color: transparent;
+                                                                                                                    color: #333;
+                                                                                                                    border: 1px solid #333;
+                                                                                                                }
+                                                                                                                /*********************************************************End Header Style Sction****************************************************/
+                                                                                                                /********************************************************* Start catogry  Style Sction****************************************************/
+
+                                                                                                                .catogry {
+                                                                                                                    margin-top: 70px;
+                                                                                                                }
+
+                                                                                                                .smallContainer {
+                                                                                                                    max-width: 1080px;
+                                                                                                                    margin: auto;
+                                                                                                                    padding-left: 25px;
+                                                                                                                    padding-right: 25px;
+                                                                                                                }
+
+                                                                                                                .colContentCatogry img {
+                                                                                                                    width: 100%;
+                                                                                                                    border-radius: 2%;
+                                                                                                                }
+
+                                                                                                                .colContentCatogry {
+                                                                                                                    min-width: 250px;
+                                                                                                                    flex-basis: 30%;
+                                                                                                                    margin-bottom: 40px;
+                                                                                                                }
+                                                                                                                /********************************************************* End catogry  Style Sction****************************************************/
+                                                                                                                /********************************************************* Start Products  Style Sction****************************************************/
+
+                                                                                                                .products {
+                                                                                                                    margin-top: 70px;
+                                                                                                                }
+
+                                                                                                                .colProductContent {
+                                                                                                                    flex-basis: 25%;
+                                                                                                                    min-width: 200px;
+                                                                                                                    margin-bottom: 30px;
+                                                                                                                    padding: 30px;
+                                                                                                                    transition: all linear 0.5s;
+                                                                                                                }
+
+                                                                                                                .title {
+                                                                                                                    position: relative;
+                                                                                                                    font-size: 40px;
+                                                                                                                    font-weight: 500;
+                                                                                                                    text-align: center;
+                                                                                                                    padding-bottom: 10px;
+                                                                                                                    line-height: 60px;
+                                                                                                                    color: #555;
+                                                                                                                    transition: all linear 0.5s;
+                                                                                                                    cursor: alias;
+                                                                                                                }
+
+                                                                                                                .title::after {
+                                                                                                                    content: "";
+                                                                                                                    position: absolute;
+                                                                                                                    bottom: 0;
+                                                                                                                    left: 50%;
+                                                                                                                    width: 80px;
+                                                                                                                    height: 5px;
+                                                                                                                    background-color: #ff523b;
+                                                                                                                    border-radius: 30px;
+                                                                                                                    transform: translateX(-50px);
+                                                                                                                }
+
+                                                                                                                .title:hover {
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .titleProducts {
+                                                                                                                    font-size: 15px;
+                                                                                                                    font-weight: 500;
+                                                                                                                }
+
+                                                                                                                .colProductContent img {
+                                                                                                                    padding-bottom: 20px;
+                                                                                                                    margin-bottom: 40px;
+                                                                                                                }
+
+                                                                                                                .productsPrice {
+                                                                                                                    font-weight: 600;
+                                                                                                                    font-size: small;
+                                                                                                                }
+
+                                                                                                                .colProductContent:hover {
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .fa-star,
+                                                                                                                .fa-star-half-stroke {
+                                                                                                                    color: #ff523b !important;
+                                                                                                                }
+                                                                                                                /********************************************************* Start Products  Style Sction****************************************************/
+                                                                                                                /********************************************************* Start Offer  Style Sction****************************************************/
+
+                                                                                                                .offer {
+                                                                                                                    margin-top: 80px;
+                                                                                                                    padding: 30px 0;
+                                                                                                                    background: radial-gradient(#fff, #ffd6d6);
+                                                                                                                }
+
+                                                                                                                .colOfferContent {
+                                                                                                                    min-width: 381px;
+                                                                                                                }
+
+                                                                                                                .imgOffer {
+                                                                                                                    max-width: 400px;
+                                                                                                                }
+
+                                                                                                                .colOfferContent p {
+                                                                                                                    font-size: smaller;
+                                                                                                                    color: #555;
+                                                                                                                }
+
+                                                                                                                .colOfferContent h3 {
+                                                                                                                    font-size: 40px;
+                                                                                                                    font-weight: 500;
+                                                                                                                    line-height: 40px;
+                                                                                                                }
+
+                                                                                                                .colOfferContent small {
+                                                                                                                    color: #555;
+                                                                                                                }
+                                                                                                                /********************************************************* End Offer  Style Sction****************************************************/
+                                                                                                                /********************************************************* Start Testmonialls  Style Sction****************************************************/
+
+                                                                                                                .container {
+                                                                                                                    width: 100%;
+                                                                                                                    margin: 0 auto;
+                                                                                                                }
+
+                                                                                                                .testimonials {
+                                                                                                                    margin-top: 80px;
+                                                                                                                    position: relative;
+                                                                                                                }
+
+                                                                                                                .imageSliders img {
+                                                                                                                    margin: auto;
+                                                                                                                    border-radius: 50%;
+                                                                                                                    border: 3px solid rgba(51, 51, 51, 0.599);
+                                                                                                                }
+
+                                                                                                                .imageSliders {
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                }
+
+                                                                                                                .sliderContent {
+                                                                                                                    margin-left: 35px;
+                                                                                                                    margin-top: 10px;
+                                                                                                                    text-align: center;
+                                                                                                                }
+
+                                                                                                                .sliderContent h3 {
+                                                                                                                    font-size: 20px;
+                                                                                                                    font-weight: 500;
+                                                                                                                    list-style: 10px;
+                                                                                                                }
+
+                                                                                                                .svg-inline--fa {
+                                                                                                                    color: #ff523b !important;
+                                                                                                                    font-size: 10px;
+                                                                                                                }
+
+                                                                                                                .testmonialsSlider {
+                                                                                                                    position: relative;
+                                                                                                                }
+
+                                                                                                                .imageSliders:hover {
+                                                                                                                    transform: translateX(-5px);
+                                                                                                                }
+                                                                                                                /********************************************************* End Testmonialls  Style Sction****************************************************/
+                                                                                                                /********************************************************* Start Brands  Style Sction****************************************************/
+
+                                                                                                                .brands {
+                                                                                                                    padding: 1000px auto;
+                                                                                                                    margin-top: 60px;
+                                                                                                                    margin-bottom: 60px;
+                                                                                                                }
+
+                                                                                                                .imageStore {
+                                                                                                                    cursor: pointer;
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                    margin-left: 10px;
+                                                                                                                }
+
+                                                                                                                .imageStore:hover {
+                                                                                                                    transform: scale(1.1);
+                                                                                                                }
+
+                                                                                                                .imageBrnds img {
+                                                                                                                    width: 80%;
+                                                                                                                    cursor: pointer;
+                                                                                                                    filter: grayscale(100%);
+                                                                                                                    transition: all 0.5s
+                                                                                                                }
+
+                                                                                                                .imageBrnds img:hover {
+                                                                                                                    filter: grayscale(0);
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+                                                                                                                /********************************************************* End brands  Style Sction****************************************************/
+                                                                                                                /********************************************************* Start Footer Style Sction****************************************************/
+
+                                                                                                                .imageStore {
+                                                                                                                    width: 100px;
+                                                                                                                }
+
+                                                                                                                .imageBrand {
+                                                                                                                    width: 100px;
+                                                                                                                    margin-bottom: 10px;
+                                                                                                                }
+
+                                                                                                                .UsefullLinks li {
+                                                                                                                    margin-bottom: 14px !important;
+                                                                                                                    cursor: pointer;
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                }
+
+                                                                                                                .UsefullLinks li:hover {
+                                                                                                                    color: #ff523b;
+                                                                                                                    transform: translateX(-5px);
+                                                                                                                }
+
+                                                                                                                .icon {
+                                                                                                                    font-size: 12px !important;
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                }
+
+                                                                                                                .desc {
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                }
+
+                                                                                                                .icon,
+                                                                                                                .desc:hover {
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .myNames {
+                                                                                                                    color: #ff523b;
+                                                                                                                    font-weight: 700;
+                                                                                                                    cursor: pointer;
+                                                                                                                }
+
+                                                                                                                .socialMe {
+                                                                                                                    cursor: pointer;
+                                                                                                                }
+
+                                                                                                                .socialMe .fab1:hover {
+                                                                                                                    color: #1877f2 !important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab2:hover {
+                                                                                                                    color: #c32aa3!important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab3:hover {
+                                                                                                                    color: #0a66c2 !important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab4:hover {
+                                                                                                                    color: #1da1f2 !important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab5:hover {
+                                                                                                                    color: #ff0000 !important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab6:hover {
+                                                                                                                    color: #4285f4 !important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .fab7:hover {
+                                                                                                                    color: #25d366!important;
+                                                                                                                    transform: translateY(-5px);
+                                                                                                                }
+
+                                                                                                                .socialMe .svg-inline--fa {
+                                                                                                                    color: #ffffff !important;
+                                                                                                                    font-size: 15px;
+                                                                                                                    transition: all 0.5s linear;
+                                                                                                                    margin-left: 5px;
+                                                                                                                }
+                                                                                                                /********************************************************* End Footer Style Sction****************************************************/
+                                                                                                                /**********************************************************Start Media Query Responsive*************************************************/
+
+                                                                                                                @media only screen and (max-width: 600px) {
+                                                                                                                    .row {
+                                                                                                                        text-align: center;
+                                                                                                                    }
+                                                                                                                    .col-2,
+                                                                                                                    .col-3,
+                                                                                                                    .col-4 {
+                                                                                                                        flex-basis: 100%;
+                                                                                                                    }
+                                                                                                                    .colImag img {
+                                                                                                                        padding-top: 11px;
+                                                                                                                        width: 60%;
+                                                                                                                    }
+                                                                                                                    header .btn {
+                                                                                                                        margin-top: 8px;
+                                                                                                                        margin-bottom: 8px;
+                                                                                                                    }
+                                                                                                                    header p {
+                                                                                                                        margin-bottom: 10px;
+                                                                                                                    }
+                                                                                                                    .colH1 h1 {
+                                                                                                                        font-size: 2.5rem;
+                                                                                                                        line-height: 3rem;
+                                                                                                                    }
+                                                                                                                    .pBrand {
+                                                                                                                        margin-top: 10px;
+                                                                                                                    }
+                                                                                                                    .imageBrnds {
+                                                                                                                        display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                        width: 50%;
+                                                                                                                    }
+                                                                                                                    .imageBrand {
+                                                                                                                        width: 35%;
+                                                                                                                    }
+                                                                                                                    .sefullLinks li {
+                                                                                                                        text-align: center;
+                                                                                                                    }
+                                                                                                                    .infoIcon h4,
+                                                                                                                    p {
+                                                                                                                        text-align: center;
+                                                                                                                    }
+                                                                                                                    .desc {
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    .icon {
+                                                                                                                        position: absolute;
+                                                                                                                        top: 45%;
+                                                                                                                        left: 25%;
+                                                                                                                        font-size: 15px !important;
+                                                                                                                    }
+                                                                                                                }
+
+                                                                                                                @media only screen and (min-width: 992px) {
+                                                                                                                    .colImag {
+                                                                                                                        width: 50%;
+                                                                                                                        margin-top: 10px;
+                                                                                                                        padding: 20px;
+                                                                                                                    }
+                                                                                                                    .desc {
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    .icon {
+                                                                                                                        position: absolute;
+                                                                                                                        top: 45%;
+                                                                                                                        right: 97%;
+                                                                                                                        font-size: 18px !important;
+                                                                                                                    }
+                                                                                                                }
+                                                                                                                /**********************************************************End Media Query Responsive*************************************************/

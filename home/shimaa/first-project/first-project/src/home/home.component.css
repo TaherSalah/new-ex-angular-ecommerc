@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    color: brown;
+    font-weight: 800;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+ul li:hover{
+    color: cadetblue;
+}
